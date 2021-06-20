@@ -6,4 +6,8 @@ export default class Money  {
   static inr(value:  number): Money{
     return new Money(value, "INR");
   }
+
+  divideInThreeParts(): Money[] {
+    return [Money.inr(this.amount/3), Money.inr(this.amount/3), Money.inr(this.amount/3)];
+  }
 }
