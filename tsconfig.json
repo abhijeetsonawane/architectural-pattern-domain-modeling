@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig.json to read more about this file */
-
-    "target": "es5",
+    "noEmitOnError": true,
+    "moduleResolution": "node",
     "module": "commonjs",
-    "strict": true,
+    "target": "es6",
     "outDir": "dist",
-    "sourceMap": true
+    "resolveJsonModule": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true
   }
 }

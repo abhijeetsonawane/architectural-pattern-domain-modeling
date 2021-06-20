@@ -1,9 +1,7 @@
-class Money  {
+export default class Money  {
 
   private constructor(private readonly amount: number,
-              private readonly currency: string) {
-
-  }
+              private readonly currency: string) {}
 
   static inr(value:  number): Money{
     return new Money(value, "INR");
