@@ -4,11 +4,16 @@
   "description": "This is a sample project that demonstrates solving a problem in Archtiectural fashion",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "run": "node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhijeetsonawane/architectural-pattern-domain-modeling.git"
+  },
+  "dependencies": {
+    "typescript": "4.3.4"
   },
   "author": "",
   "license": "ISC",
