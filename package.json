@@ -1,0 +1,19 @@
+{
+  "name": "architectural-pattern-domain-modeling",
+  "version": "1.0.0",
+  "description": "This is a sample project that demonstrates solving a problem in Archtiectural fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeetsonawane/architectural-pattern-domain-modeling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijeetsonawane/architectural-pattern-domain-modeling/issues"
+  },
+  "homepage": "https://github.com/abhijeetsonawane/architectural-pattern-domain-modeling#readme"
+}
